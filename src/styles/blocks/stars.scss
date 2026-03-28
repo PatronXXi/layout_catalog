@@ -1,11 +1,11 @@
 .stars {
   display: flex;
-  gap: 4px;
+  gap: $star-gap;
 
   &__star {
     display: block;
-    width: 16px;
-    height: 16px;
+    width: $stars-size;
+    height: $stars-size;
     background-repeat: no-repeat;
     background-position: center;
     line-height: 0;

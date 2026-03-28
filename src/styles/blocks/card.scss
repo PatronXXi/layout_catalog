@@ -9,9 +9,7 @@
   border: 1px solid $border-color-card;
   border-radius: 5px;
 
-  transition:
-    transform 300ms,
-    all 300ms;
+  transition: transform 300ms;
 
   &__photo {
     display: block;
@@ -32,6 +30,8 @@
     color: $main-color;
     line-height: 18px;
     text-align: left;
+
+    transition: color 300ms;
   }
 
   &__product-code {
