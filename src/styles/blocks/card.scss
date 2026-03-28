@@ -4,7 +4,7 @@
   flex-direction: column;
 
   width: $card-width;
-  padding: 32px 16px 16px;
+  padding: $card-padding;
 
   border: 1px solid $border-color-card;
   border-radius: 5px;

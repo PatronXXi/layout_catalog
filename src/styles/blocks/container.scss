@@ -1,11 +1,11 @@
 .container {
-  padding: 50px 40px;
+  padding: $container-padding;
 
   --column-count: 1;
 
   display: grid;
-  grid-template-columns: repeat(var(--column-count), 200px);
-  gap: 46px 48px;
+  grid-template-columns: repeat(var(--column-count), $card-width);
+  gap: $container-gap;
 
   justify-content: center;
 }
