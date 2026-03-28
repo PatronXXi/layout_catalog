@@ -6,8 +6,8 @@
   width: $card-width;
   padding: $card-padding;
 
-  border: 1px solid $border-color-card;
-  border-radius: 5px;
+  border: $border-width solid $border-color-card;
+  border-radius: $border-radius;
 
   transition: transform 300ms;
 
@@ -104,7 +104,7 @@
     text-align: center;
 
     background-color: $blue-color;
-    border-radius: 5px;
+    border-radius: $border-radius;
   }
 
   &__buy-link {
@@ -124,8 +124,8 @@
     transition: all 300ms;
     &:hover {
       background-color: $white-color;
-      border: 1px solid $blue-color;
-      border-radius: 5px;
+      border: $border-width solid $blue-color;
+      border-radius: $border-radius;
       color: $blue-color;
     }
   }
