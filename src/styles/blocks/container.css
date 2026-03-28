@@ -1,10 +1,10 @@
-/* stylelint-disable custom-property-empty-line-before */
-/* stylelint-disable at-rule-empty-line-before */
-/* stylelint-disable declaration-empty-line-before */
 .container {
   padding: 50px 40px;
+
   --column-count: 1;
+
   display: grid;
+
   grid-template-columns: repeat(var(--column-count), 200px);
   gap: 46px 48px;
   justify-content: center;
@@ -15,11 +15,13 @@
     --column-count: 2;
   }
 }
+
 @media (min-width: 768px) {
   .container {
     --column-count: 3;
   }
 }
+
 @media (min-width: 1024px) {
   .container {
     --column-count: 4;
